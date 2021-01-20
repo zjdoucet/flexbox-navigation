@@ -1,0 +1,46 @@
+/* developer styles go here */
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between; /*horizontal*/
+	align-items: center; /*vertical*/
+}
+
+header {
+	min-width: 960px;
+	padding: 8px 16px;
+	background-color: rgb(250, 250, 250);
+	border-bottom: 1px solid rgb(222,222,222);
+	box-shadow: 0 0 8px 0 rgb(222,222,222);
+}
+
+nav li {
+	margin: 0 12px;
+}
+
+nav h1 {
+	width: 250px;
+	font-size: 54px;
+}
+
+a,
+a:hover {
+	border: 1px solid rgb(212,211,211);
+	border-radius: 4px;
+	user-select: none;
+	padding: 0.25rem 1rem;
+	background-color: #ffffff;
+	color: #333333;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover {
+	box-shadow: 0 0 5px 2px rgb(65,114,238);
+}
